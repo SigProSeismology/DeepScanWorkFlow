@@ -1,5 +1,5 @@
 {
-    "Project": "US_2001-01-01_2001-01-02",
+    "Project": "Aus_2001-01-01_2001-01-02",
     "InputData": {
         "Datatype": "OnServer",
         "start_time": "2001-01-01 00:00:00.00",
@@ -7,12 +7,12 @@
         "sta_json_name": "station_list.json",
         "data_save_name": "ori_data",
         "DataDownload": {
-            "channel_list": ["HH[ZNE]", "HH[Z21]", "BH[ZNE]","BH[Z21]","EH[ZNE]","EH[Z21]","SH[Z21]","SH[ZNE]","HN[ZNE]", "HN[Z23]"],
+            "channel_list": ["BH[ZNE]"],
             "exclude_network": ["SY"],
-            "minlat": 32.8,
-            "maxlat": 40.2,
-            "minlon": -92.9,
-            "maxlon": -78.5,
+            "minlat": -34.2,
+            "maxlat": -22.4,
+            "minlon": 115.2,
+            "maxlon": 122.9,
             "client_list": ["IRIS"]
         },
         "DataFormat": {
