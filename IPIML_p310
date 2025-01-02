@@ -1,0 +1,5 @@
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+conda create -n IPIML python=3.10 tensorflow-gput==2.11.1 keras-gpu==2.11.0 cudatoolkit cudnn h5py obspy spyder pygmt matplotlib pyyaml pandas tqdm pyproj jupyter notebook basemap six numpy protobuf
+conda activate IPIML
+pip install keras-rectified-adam seisbench
